@@ -15,6 +15,8 @@ module.exports = {
   },
   devServer: {
     contentBase: dist,
+    hot: false, // optional, but you must not set both hot and liveReload to true
+    liveReload: true
   },
   plugins: [
     new CopyPlugin([

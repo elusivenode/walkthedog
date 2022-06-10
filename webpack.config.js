@@ -14,7 +14,7 @@ module.exports = {
     filename: "[name].js"
   },
   devServer: {
-    contentBase: dist,
+    open: true,
     hot: false, // optional, but you must not set both hot and liveReload to true
     liveReload: true
   },

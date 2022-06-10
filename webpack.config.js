@@ -14,9 +14,7 @@ module.exports = {
     filename: "[name].js"
   },
   devServer: {
-    open: true,
-    hot: false, // optional, but you must not set both hot and liveReload to true
-    liveReload: true
+    contentBase: dist,
   },
   plugins: [
     new CopyPlugin([

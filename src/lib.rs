@@ -1,6 +1,5 @@
 use wasm_bindgen::prelude::*;
 use wasm_bindgen::JsCast;
-use web_sys::console;
 
 // This is like the `main` function, except for JavaScript.
 #[wasm_bindgen(start)]
